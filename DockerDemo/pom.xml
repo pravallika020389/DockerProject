@@ -62,7 +62,7 @@
     <version>2.22.2</version>
     
     <configuration>
-		<forkCount>2</forkCount>
+		<forkCount>0</forkCount>
       <!--  <includes>
             <include>*/AutomationScripts.java</include>
         </includes> -->
