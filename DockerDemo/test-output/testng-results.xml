@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-31T14:47:05 CDT" name="Suite" finished-at="2024-03-31T14:47:39 CDT" duration-ms="34724">
+    <groups>
+    </groups>
+    <test started-at="2024-03-31T14:47:05 CDT" name="Test" finished-at="2024-03-31T14:47:39 CDT" duration-ms="34724">
+      <class name="grid.Setup_DockerGrid">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:grid.Setup_DockerGrid@75437611]" started-at="2024-03-31T14:47:05 CDT" name="startDockerGrid" finished-at="2024-03-31T14:47:20 CDT" duration-ms="15476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method is-config="true" signature="stopDockerGrid()[pri:0, instance:grid.Setup_DockerGrid@75437611]" started-at="2024-03-31T14:47:34 CDT" name="stopDockerGrid" finished-at="2024-03-31T14:47:39 CDT" duration-ms="5067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- grid.Setup_DockerGrid -->
+      <class name="grid.DockerChrome1">
+        <test-method signature="test1()[pri:0, instance:grid.DockerChrome1@cc43f62]" started-at="2024-03-31T14:47:20 CDT" name="test1" finished-at="2024-03-31T14:47:26 CDT" duration-ms="5998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- grid.DockerChrome1 -->
+      <class name="grid.DockerChrome2">
+        <test-method signature="test1()[pri:0, instance:grid.DockerChrome2@2cb4893b]" started-at="2024-03-31T14:47:20 CDT" name="test1" finished-at="2024-03-31T14:47:29 CDT" duration-ms="9074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- grid.DockerChrome2 -->
+      <class name="grid.DockerFirefox">
+        <test-method signature="test1()[pri:0, instance:grid.DockerFirefox@5b218417]" started-at="2024-03-31T14:47:20 CDT" name="test1" finished-at="2024-03-31T14:47:34 CDT" duration-ms="14074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- grid.DockerFirefox -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
